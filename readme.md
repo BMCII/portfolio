@@ -1,12 +1,24 @@
 
 
-    Develop the site locally
+1. Ensure you are in correct project file and ready to code.
+
+    ```pstorm /Users/briancobb/Projects/ProjectName/index.html/```
+          
+        
+2.     Edit code as necessary
+
+    * commit regularly
     
-    Complete rough draft development of project website
-        Load simple, descriptive copy
-        Load preview images
-        Add links to preview images to full size images or live examples online
-        Add See More button to offer another portal to the full size examples
-    Git Add all changes
-    Git Commit a message outlining the changes
-    Push changes to Staging Server
+        ```git add -A```
+        
+        ```git commit -m 'descriptive note'```
+
+    * Test often 
+     
+3. push to github 
+
+    ```git push -u github master```
+    
+4. push to live server
+
+    ```git push prodServer master```
